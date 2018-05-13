@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context="com.example.damian.lmapp.MainActivity"
+>
+
+    <Button
+        android:id="@+id/bGroupTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextB"
+        android:text="Group Table"
+        android:layout_marginBottom="1px"/>
+    <Button
+        android:id="@+id/bLineups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextB"
+        android:text="Lineups"
+        android:layout_marginBottom="1px"/>
+    <Button
+        android:id="@+id/bMatchEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextB"
+        android:text="Match Events"
+        android:layout_marginBottom="1px"/>
+    <Button
+        android:id="@+id/bMatchScorers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextB"
+        android:text="Match Scorers"
+        android:layout_marginBottom="1px"/>
+    <Button
+        android:id="@+id/bMatchStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextB"
+        android:text="Match Statistics"
+        android:layout_marginBottom="1px"/>
+    <Button
+        android:id="@+id/bMatchesResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextB"
+        android:text="Matches Results"
+        android:layout_marginBottom="1px"/>
+    <Button
+        android:id="@+id/bMissingPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextB"
+        android:text="Missing Player"
+        android:layout_marginBottom="1px"/>
+    <Button
+        android:id="@+id/bPlayerStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextB"
+        android:text="Player Stats"
+        android:layout_marginBottom="1px"/>
+    <Button
+        android:id="@+id/bTopScorers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorTextB"
+        android:text="Top Scorers" />
+
+
+</LinearLayout>
